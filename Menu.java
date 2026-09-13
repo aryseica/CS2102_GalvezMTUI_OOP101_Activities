@@ -32,7 +32,7 @@ public class Menu {
             System.out.print("Enter quantity: ");
             int quantityFood = Integer.parseInt(scanner.nextLine().trim());
 
-            if (item < 1 || item > 5) {
+            if (item < 1 || item > 5 || quantityFood <1 || quantityFood > 10) {
                 System.out.println("Invalid order! Please enter a valid item and quantity.\n");
                 System.out.print("Do you want to order again? (Y/N): ");
                 String orderAgain = scanner.nextLine().trim().toUpperCase();
