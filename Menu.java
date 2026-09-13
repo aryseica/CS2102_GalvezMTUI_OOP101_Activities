@@ -4,11 +4,12 @@ public class Menu {
 
     public static void menu() {
         System.out.println("====(●'◡'●) 	M E N U 	(●ˇ∀ˇ●)====");
-        System.out.println("1. Burger		- $80.00");
-        System.out.println("2. Pizza		- $120.00");
-        System.out.println("3. Pasta		- $100.00");
-        System.out.println("4. Sandwich		- $70.00");
-        System.out.println("5. Milk Tea  		- $90.00");
+        System.out.println("1. Four Cheese Burger		- $80.00");
+        System.out.println("2. Creamy SpinachPizza		- $120.00");
+        System.out.println("3. Carbonara Pasta		- $100.00");
+        System.out.println("4. Donut 		        - $70.00");
+        System.out.println("5. Okinawa Milk Tea  		- $90.00");
+        System.out.println("6. Vietnamese Coffee		- $50.00");
         System.out.println();
     }
 
@@ -17,8 +18,8 @@ public class Menu {
 
         menu();
 
-        // Index 0 is unused so item numbers 1-5 line up directly with the array index
-        int[] prices = {0, 80, 120, 100, 70, 90};
+        // Index 0 is unused so item numbers 1-6 line up directly with the array index
+        int[] prices = {0, 80, 120, 100, 70, 90, 50};
 
         int totalQuantity = 0;
         double totalSubtotal = 0;
